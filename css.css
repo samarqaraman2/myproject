@@ -1,0 +1,172 @@
+ body {
+
+     font-family: Arial, Helvetica, sans-serif;
+
+     background-color: white;
+     color: black;
+     font-size: 16px;
+
+ }
+
+ .contact,
+ .input {
+     margin-top: 70px;
+     margin-bottom: -50px;
+     margin: auto;
+     width: 70%;
+     height: 70%;
+
+ }
+
+ .contact h1 {
+     margin-bottom: 30px;
+ }
+
+
+ .info,
+ .inputs {
+     width: 40%;
+     float: left;
+     padding: 5%;
+ }
+
+ .bold {
+     font-weight: bolder;
+ }
+
+ p {
+
+     font-weight: 100px;
+     line-height: 29px;
+     text-align: left;
+
+ }
+
+
+ .info {
+     background-color: #144cae;
+     border-radius: 10px 0 0 10px;
+     box-shadow: 25px 30px 75px 2px #07115375;
+     color: #ffff;
+ }
+
+
+ .submit {
+     border: none;
+     width: 40%;
+     background-color: #ffffff;
+     color: #144cae;
+     font-weight: bolder;
+     border-radius: 3px 0px;
+     padding: 16px;
+     margin-top: 16px;
+     margin-bottom: 90px;
+ }
+
+ .submit:hover {
+     background-color: #14ae97;
+ }
+
+ .inputs h1 {
+     color: #144cae;
+ }
+
+
+
+ .inputs {
+
+     background-color: white;
+     border-radius: 0 10px 10px 0;
+     box-shadow: 25px 30px 75px 2px #656991bf;
+
+ }
+
+ .inputs form input {
+     padding: 8px;
+     margin: 7px 5px 29px 0;
+     box-shadow: #144cae;
+
+ }
+
+
+ .FNAME,
+ .lNAME,
+ .password,
+ .passc {
+     display: inline-block;
+ }
+
+ .email {
+     display: block;
+ }
+
+
+ .inputs from input {
+     padding: 10px;
+     margin: 7px 5px 29px 0;
+     border-color: #f2f2f8bf;
+ }
+
+
+ .email input {
+     width: 73%;
+ }
+
+ .dark-mode {
+     background-color: black;
+     color: rgb(3, 3, 3);
+     border-radius: 8px;
+
+ }
+
+ .light-mode {
+     background-color: rgb(255, 255, 255);
+     color: black;
+     border-radius: 8px;
+
+
+ }
+
+
+ #font-size4 {
+     background-color: #0a3e99;
+     width: 80px;
+     color: #ffffff;
+     border-radius: 8px;
+     border: 1px;
+
+     padding: 5px;
+     margin-left: 8px;
+     margin-top: 10px;
+ }
+
+ #font-defualt {
+     background-color: #0b5ce7;
+     width: 80px;
+     color: #ffffff;
+     border-radius: 8px;
+     border: 1px;
+
+     padding: 5px;
+     margin-left: 8px;
+     margin-top: 10px;
+ }
+
+ #Dom {
+     background-color: #22e315;
+     width: 80px;
+     color: #0a0a0a;
+     border-radius: 8px;
+     border: 1px;
+
+     padding: 5px;
+     margin-left: 8px;
+     margin-top: 10px;
+ }
+
+ @media (max-width: 768px) {
+     body {
+         flex-direction: column;
+         align-items: center;
+     }
+ }

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Homework</title>
+    <meta lang="en" charset="utf_8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="css.css" type="text/css" rel="stylesheet">
+    <!-- الكود عشان نربطط html مع css -->
+
+
+</head>
+
+<body id="body" onload="whenpageloaded()" onunload="whenpageloaded2()">
+
+
+    <div class="contact">
+        <div class="info">
+            <h1>INFORMATION</h1>
+            <P>Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit,sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis
+                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            </P>
+
+            <P>
+                <b class="bold">Eu ultrices :</b>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod incidunt non ab praesentium, quidem eius
+                sit id quae
+                tempora delectus sint molestiae.
+            </P>
+            <form action="" method="post">
+                <input class="submit" type="submit" value="Have An Account">
+            </form>
+        </div>
+        <div class="inputs">
+            <h1>REGISTER FORM</h1>
+            <form action="" method="post">
+                <div class="FNAME">
+
+                    <label for="FNAME">First Name</label><br>
+                    <input id="FNAME" type="text">
+                </div>
+                <div class="lNAME">
+                    <label for="lNAME">Last Name</label><br>
+                    <input id="lNAME" type="text">
+                </div>
+                <div class="email">
+
+                    <label for="email">Your Email</label><br>
+                    <input id="email" type="email">
+                </div>
+
+                <div class="password">
+
+                    <label for="password">Password</label><br>
+                    <input id="password" type="password">
+                </div>
+                <div class="passc">
+                    <label for="passc">Comfirm Password</label><br>
+                    <input id="passc" type="password">
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="agree">
+                    <label for="agree">I agree to the <a href="">Terms and conditions</a></label><br>
+                </div>
+                <input class="Register" type="submit" value="Register">
+            </form>
+
+        </div>
+
+    </div>
+
+    <!--  Dark Mode   -->
+    <button id="darkMode" onclick="darkMode()">Darkmode</button>
+    <button id="lightMode" onclick="lightMode()">LightMode</button>
+    <!--  font size  -->
+
+    <p id="demo"></p>
+
+    <script src="js.js"> </script>
+</body>
+
+</html>
